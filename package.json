@@ -4,7 +4,7 @@
   "description": "Expression Comparison",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup --config config/rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jordi Nebot",
