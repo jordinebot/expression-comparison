@@ -1,6 +1,7 @@
 import typescript from '@rollup/plugin-typescript';
 import html from '@rollup/plugin-html';
 import serve from 'rollup-plugin-serve';
+import livereload from 'rollup-plugin-livereload';
 
 export default {
 	input: 'src/main.ts',
@@ -8,5 +9,5 @@ export default {
 		file: 'public/index.js',
 		format: 'es'
 	},
-	plugins: [typescript(), html(), serve('public')]
+	plugins: [typescript(), html(), serve('public'), livereload()]
 };
