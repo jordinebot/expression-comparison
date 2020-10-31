@@ -4,8 +4,12 @@
   "description": "Expression Comparison",
   "main": "index.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jordi Nebot",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.32.1"
+  }
 }
