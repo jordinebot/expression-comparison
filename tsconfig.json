@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./public",
+    "target": "es5"
+  },
+  "exclude": ["node_modules"]
+}
